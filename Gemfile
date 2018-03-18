@@ -10,6 +10,8 @@ gem "execjs"
 gem "twitter-bootstrap-rails"
 
 gem "bootstrap-sass"
+
+gem 'shopify_api'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 
@@ -55,7 +57,6 @@ group :development, :test do
   # Testing frameworks
   gem 'rspec-rails' # testing framework
   gem "factory_girl_rails" # use factories, not fixtures
-  gem "fakeweb"
   # Automated testing
   gem 'guard' # automated execution of test suite upon change
   gem "guard-rspec" # guard integration with rspec
